@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💀 WhatsApp Exploit - DEV SMILE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="matrix-bg"></div>
+    
+    <div class="container">
+        <div class="glitch-header">
+            <div class="glitch" data-text="WHATSAPP EXPLOIT">WHATSAPP EXPLOIT</div>
+            <div class="sub-glitch">DEVELOPED BY DEV SMILE</div>
+        </div>
+
+        <div class="terminal-card">
+            <div class="terminal-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="terminal-title">root@exploit:~#</span>
+            </div>
+            
+            <div class="terminal-body">
+                <div class="scanline"></div>
+                
+                <div class="status-bar">
+                    <span id="systemStatus">🟢 SYSTEM: ONLINE</span>
+                    <span id="targetCount">🎯 TARGETS: 0</span>
+                </div>
+
+                <form id="attackForm">
+                    <div class="input-group">
+                        <label for="target">📱 ENTER TARGET NUMBER</label>
+                        <input type="tel" id="target" placeholder="+254712345678" required>
+                        <div class="input-hint">[ FORMAT: +254XXXXXXXXX OR 0712345678 ]</div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="intensity">💀 EXPLOIT INTENSITY</label>
+                        <select id="intensity">
+                            <option value="low">LOW - [50 MSG]</option>
+                            <option value="medium">MEDIUM - [150 MSG]</option>
+                            <option value="max" selected>MAXIMUM - [500 MSG]</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="useProxy">
+                            <span class="checkmark"></span>
+                            🕵️ ENABLE PROXY ROUTING
+                        </label>
+                    </div>
+
+                    <button type="submit" id="attackBtn">
+                        <span class="btn-text">💀 EXECUTE EXPLOIT</span>
+                        <span class="btn-loader hidden"></span>
+                    </button>
+                </form>
+
+                <div id="terminalOutput" class="terminal-output hidden">
+                    <div class="output-header">╔══════════════════════════════════════╗</div>
+                    <div class="output-content" id="outputContent"></div>
+                    <div class="output-footer">╚══════════════════════════════════════╝</div>
+                </div>
+
+                <div id="resultData" class="result-panel hidden">
+                    <div class="result-header">💀 EXPLOIT SUCCESSFUL</div>
+                    <div class="result-body" id="resultBody"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>⚠️ [ ACCESS GRANTED ] — DEV SMILE INDUSTRIES — [ CLASSIFIED ]</p>
+            <p class="footer-sub">░░█▀▀ █▀▀ █▀▀█ █░░ █▀▀ █▀▀ █▀▀█ █▀▀▄ █▀▀▀ █░░█ █▀▀▄ █▀▀ █▀▀█ ░░</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
