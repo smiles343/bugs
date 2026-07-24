@@ -10,7 +10,7 @@
   "author": "DEV SMILE",
   "license": "UNLICENSED",
   "dependencies": {
-    "@adiwajshing/baileys": "^6.7.9",
+    "@whiskeysockets/baileys": "^6.7.9",
     "express": "^4.18.2",
     "express-rate-limit": "^7.1.5",
     "cors": "^2.8.5",
